@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Bundler by MUSIC-BANGLA-TV</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/MUSIC-BANGLA-TV/bundler">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Bundler</h1>
+            <h2>Manage your application&#39;s gem dependencies with less pain</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/MUSIC-BANGLA-TV/bundler/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/MUSIC-BANGLA-TV/bundler/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p><a href="https://rubygems.org/gems/bundler"><img src="https://img.shields.io/gem/v/bundler.svg?style=flat" alt="Version     "></a>
+<a href="https://travis-ci.org/bundler/bundler"><img src="https://img.shields.io/travis/bundler/bundler/master.svg?style=flat" alt="Build Status"></a>
+<a href="https://codeclimate.com/github/bundler/bundler"><img src="https://img.shields.io/codeclimate/github/bundler/bundler.svg?style=flat" alt="Code Climate"></a>
+<a href="http://inch-ci.org/github/bundler/bundler"><img src="http://inch-ci.org/github/bundler/bundler.svg?style=flat" alt="Inline docs "></a></p>
+
+<h1>
+<a id="bundler-a-gem-to-bundle-gems" class="anchor" href="#bundler-a-gem-to-bundle-gems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bundler: a gem to bundle gems</h1>
+
+<p>Bundler makes sure Ruby applications run the same code on every machine.</p>
+
+<p>It does this by managing the gems that the application depends on. Given a list of gems, it can automatically download and install those gems, as well as any other gems needed by the gems that are listed. Before installing gems, it checks the versions of every gem to make sure that they are compatible, and can all be loaded at the same time. After the gems have been installed, Bundler can help you update some or all of them when new versions become available. Finally, it records the exact versions that have been installed, so that others can install the exact same gems.</p>
+
+<h3>
+<a id="installation-and-usage" class="anchor" href="#installation-and-usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation and usage</h3>
+
+<pre><code>gem install bundler
+bundle init
+echo 'gem "rspec"' &gt;&gt; Gemfile
+bundle install
+bundle exec rspec
+</code></pre>
+
+<p>See <a href="http://bundler.io">bundler.io</a> for the full documentation.</p>
+
+<h3>
+<a id="troubleshooting" class="anchor" href="#troubleshooting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Troubleshooting</h3>
+
+<p>For help with common problems, see <a href="https://github.com/bundler/bundler/blob/master/ISSUES.md">ISSUES</a>.</p>
+
+<h3>
+<a id="other-questions" class="anchor" href="#other-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other questions</h3>
+
+<p>To see what has changed in recent versions of Bundler, see the <a href="https://github.com/bundler/bundler/blob/master/CHANGELOG.md">CHANGELOG</a>.</p>
+
+<p>Feel free to chat with the Bundler core team (and many other users) on IRC in the  #bundler channel on Freenode, or via email on the <a href="http://groups.google.com/group/ruby-bundler">Bundler mailing list</a>.</p>
+
+<h3>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h3>
+
+<p>If you'd like to contribute to Bundler, that's awesome, and we &lt;3 you. There's a guide to contributing to Bundler (both code and general help) over in <a href="https://github.com/bundler/bundler/blob/master/DEVELOPMENT.md">DEVELOPMENT</a>.</p>
+
+<h3>
+<a id="code-of-conduct" class="anchor" href="#code-of-conduct" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code of Conduct</h3>
+
+<p>Everyone interacting in the Bundler project’s codebases, issue trackers, chat rooms, and mailing lists is expected to follow the <a href="https://github.com/bundler/bundler/blob/master/CODE_OF_CONDUCT.md">Bundler code of conduct</a>.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/MUSIC-BANGLA-TV">MUSIC-BANGLA-TV</a> can be found on <a href="https://github.com/MUSIC-BANGLA-TV/bundler">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-72218036-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
